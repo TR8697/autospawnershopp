@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/TR8697/autospawnershopp
+build-by-default: true
+branches:
+- main
+projects:
+  AutoSPwShop:
+    path: AutoSPwShop/
+...
