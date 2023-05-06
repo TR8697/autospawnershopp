@@ -1,0 +1,22 @@
+name: AutoSP
+version: 1.0
+main: TR8697\AutoSPMain
+api: 4.0.0
+author: TR8697
+
+commands:
+  autospadmin:
+    description: "AutoSP Admin Komutu"
+    permission: autosp.admin
+  spmarket:
+    description: "AutoSP Market"
+    permission: autosp.market  
+
+permissions:
+  autosp.admin:
+    description: "Auto SP Admin"
+    default: OP
+  autosp.market:
+    description: "Auto SP Market"
+    default: true  
+
